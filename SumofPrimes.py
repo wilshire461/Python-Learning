@@ -12,9 +12,9 @@ def productOfPrimes(max):
     sumOfPrimes=0
     for prime in prime_list:
         sumOfPrimes+=log(prime)
-    print "Sum of Primes:",sumOfPrimes
+    print 'Sum of Primes:',sumOfPrimes
     ratio=sumOfPrimes/max
     return ratio    
 
 ratio = productOfPrimes(700)
-print "Ratio:",ratio
+print 'Ratio:',ratio
