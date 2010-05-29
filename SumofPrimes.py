@@ -10,9 +10,7 @@ def productOfPrimes(max):
 	else:
 	    prime_list.append(n)
     sumOfPrimes=0
-    i=0
     for prime in prime_list:
-        
         sumOfPrimes+=log(prime)
     print "Sum of Primes:",sumOfPrimes
     ratio=sumOfPrimes/max
