@@ -7,6 +7,7 @@ def numNuggets(nuggets):
             if nuggets == totNuggets:
                 return True
     return False               
+
 #state variables
 n=0
 unsolvable=[]

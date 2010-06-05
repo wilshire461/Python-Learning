@@ -14,4 +14,3 @@ while len(prime_list) < prime_iteration:
         
 
 print 'The' + ' ' + str(prime_iteration) + 'th' + ' ' +'prime is:', prime_list[prime_iteration - 1]
-
